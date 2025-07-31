@@ -97,7 +97,7 @@ class ResponseGenerator:
                 "total_tokens": response.usage.total_tokens if response.usage else 0
             },
             "temperature": response.temperature,
-            "prompt_used": self.prompt,
+            "prompt_used": self.base_prompt,
             "dev_message": self.dev_message
         }
         
@@ -145,7 +145,7 @@ if __name__ == "__main__":
     )
 
     # Generate responses for dataset
-    dataset = pd.read_csv("test_df.csv")
+    dataset = pd.read_csv("img-context-df.csv")
     for idx, row in dataset.iterrows():
         with open(row['image_path_1'], 'rb') as f:
             image_data = base64.b64encode(f.read()).decode()
@@ -153,4 +153,10 @@ if __name__ == "__main__":
         generator.generate(image_data, context=row['image_context_1'], item_id=row['article_name'])  # with context
         generator.generate(image_data, context=None, item_id=row['article_name'])  # without context
     
-    generator.save_to_csv("test.csv")
+
+    # Save, merge and export responses
+    generator.save_to_csv("responses.csv")
+    responses_df = pd.read_csv("responses.csv")
+    dataset.merge(responses_df, left_on='article_name', right_on='item_id', how='left').to_csv("evaluation_ready.csv", index=False)
+
+
