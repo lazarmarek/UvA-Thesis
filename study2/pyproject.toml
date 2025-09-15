@@ -1,0 +1,37 @@
+[project]
+name = "study2"
+version = "0.1.0"
+description = "A study on the impact of context in multimodal RAG systems for chart interpretation."
+readme = "README.md"
+requires-python = ">=3.10"
+
+# These are the direct, top-level dependencies for your project.
+# Pip will automatically resolve and install their sub-dependencies.
+dependencies = [
+    # Core ML & Data Handling
+    "torch",
+    "transformers",
+    "pandas",
+    "numpy",
+    "Pillow",
+    "scipy",
+
+    # Vector Store & Retrieval
+    "chromadb",
+    "langchain",
+    "langchain-community",
+    "langchain-huggingface",
+    "sentence-transformers",
+
+    # Notebook & Plotting
+    "ipykernel",
+    "matplotlib",
+    "seaborn",
+
+    # Document Loading & Utilities
+    "unstructured[pdf,image]", # Includes dependencies for PDF and image parsing
+    "python-dotenv"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

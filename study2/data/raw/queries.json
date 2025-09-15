@@ -1,0 +1,246 @@
+[
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/arxiv_articles/processed_articles/2507.08637v1-with-image-refs_artifacts/image_000000_23c6d3101ca79aafafc9409dd2c6dda83fb6cdd6d7ec3e3324772485f94f9e49.png",
+        "query": "What is the fourth step of the WERSA algorithm?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/arxiv_articles/processed_articles/2507.08665v1-with-image-refs_artifacts/image_000001_468b541f690f83514b5020ab075d945df8c5dffd9287913fc2bb0b8612b156a0.png",
+        "query": "Help me understand how the KELPS model is used in semantic parsing and what role it plays in acquiring a valid dataset."
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/arxiv_articles/processed_articles/2507.08716v1-with-image-refs_artifacts/image_000003_4296db732d14ec712519c017680de3b4de17b6abd86a53cb8036b137372cf9cb.png",
+        "query": "What's the difference between TE and TM Polarizations?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/arxiv_articles/processed_articles/2507.08723v1-with-image-refs_artifacts/image_000008_db51379aed090643ae5c5df8c474e036c1b620583c457f1b98fef5b2cd6229a6.png",
+        "query": "What was the timeframe, between which Active detectors increased the most drastically in MIP Change /  ADC Counts"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/arxiv_articles/processed_articles/2507.08731v1-with-image-refs_artifacts/image_000006_6ff42391dda2dae179fb8fdebcce05e776a8320e9103ed5189152c3cc9d3bb50.png",
+        "query": "How do the 87A-like supernovae differ from IIb and II in the pEW H alpha absorption?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/arxiv_articles/processed_articles/2507.08745v1-with-image-refs_artifacts/image_000003_ae9a6f20ef308ce874db6661c9a78a626e7dd78d52c1fe78f4c240bde76dbea7.png",
+        "query": "Out of Naive, Hapsi and Greedy approaches, which one is the best performing?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/arxiv_articles/processed_articles/2507.08747v1-with-image-refs_artifacts/image_000008_96611d5e31f451e5446bc6eda0e6cef728a387d83ea47a0f31ceca02be89bb6f.png",
+        "query": "What date had the largest number of event level triggers and why?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/arxiv_articles/processed_articles/2507.08748v1-with-image-refs_artifacts/image_000006_94bcae196ac044a7e56f3bee2a6dfa0d40721f308fe3476fe7e23a1e5f809a4f.png",
+        "query": "Which selection algorithm is preferred between DeepCore, Cascade and Muon?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/arxiv_articles/processed_articles/2507.08753v1-with-image-refs_artifacts/image_000007_a3135b8346d49dc006d95f67eacb9f391e913a730dc410800cf6ebb06f62f43c.png",
+        "query": "What causes the Fermi template drop much more steeply compared to the other templates?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/arxiv_articles/processed_articles/2507.08765v1-with-image-refs_artifacts/image_000000_7e924c9d86139a0f8f27c9686b10e4ee2f00c2e1d13bdea744f7c4eafdb1336f.png",
+        "query": "What's happening in this cube and how does it relate to the basic principle of hyper-compression?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/arxiv_articles/processed_articles/2507.08771v1-with-image-refs_artifacts/image_000003_ff9df14cc5c6595ac9125e1d9738fd8503be8034b376904a6bf9e0045f292161.png",
+        "query": "Which algorithm has the lowest average activation magnitude?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/arxiv_articles/processed_articles/2507.08776v1-with-image-refs_artifacts/image_000003_400fb125b741a72f6db786d8b5c16a6d271a2451b7ee8fa05f806bc438fcda25.png",
+        "query": "Does the inclusion of the condenser and k-means improve or decrease performance?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/arxiv_articles/processed_articles/2507.08784v1-with-image-refs_artifacts/image_000005_94edd31b0621700b447074ce346f0cef4c4f83d6d4ecee89edf2a8fe26e48ad2.png",
+        "query": "What's the pattern in using the GreedyLore optimizer in memory usage across different model sizes?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/business_articles/processed_articles/\"Did_I_buy_that_just-with-image-refs_artifacts/image_000006_baa0d407f0fbba5355dafa833b7d7f1e3e331f706135b2da22e050080103059e.png",
+        "query": "How many participants had greater degree of deviation in self-reported share of organic producs above 50?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/business_articles/processed_articles/1_UNDERSTANDING_AND_-with-image-refs_artifacts/image_000006_b261b90770fd59ea5cb50519db71ed7c81f8da27b61eddaee730475e1d6fead3.png",
+        "query": "What impact has the time of use tariff had on stay at home families?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/business_articles/processed_articles/Algorithmic_Fairness-with-image-refs_artifacts/image_000000_1f1ddc421b65e44fabb784895bf0b683a2dc6cf19413b38289689f98a5ec1383.png",
+        "query": "Which Fairness type does approachability and respect link to?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/business_articles/processed_articles/Analyzing_Income_Ine-with-image-refs_artifacts/image_000002_fb1cf71533bf0d6714a279468b4c1f08f6a304b645afc7097bc6e8450fb24c37.png",
+        "query": "Which region has the smallest inequality of income in 2020?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/business_articles/processed_articles/Artificial_Intellige-with-image-refs_artifacts/image_000000_eca8b8d652b31d34c335984eb670c6e71ec6ecb28785906aa95e52054744f065.png",
+        "query": "Where are the data sourced from for the ads platforms?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/business_articles/processed_articles/Automated_Video_Anal-with-image-refs_artifacts/image_000003_6fdfe755f8701b05ee3f5c863a82743eedc6b98d59d9c8b63b72014486c42528.png",
+        "query": "From the excluded studies, how many were excluded due to the study being a non-marketing study?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/business_articles/processed_articles/Confessions_of_a_Gre-with-image-refs_artifacts/image_000000_2f1139537d93c2f65c31e3372103c1e4c692f528ef0b9ccfca4252a6b7fc1ac6.png",
+        "query": "How does the Intrinsic Religiosity influencing other-oriented VS relate to the green purchase intention?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/business_articles/processed_articles/Data-Driven_Innovati-with-image-refs_artifacts/image_000003_e3dad1a0685b22e9d0df826d87150d2c12f572f48c2d547de04986ba042db88a.png",
+        "query": "What is the equivalent of minimal risk in the AI act Risk Classification in Maslow's Hierarchy of needs?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/business_articles/processed_articles/Decentralized_Distru-with-image-refs_artifacts/image_000002_9a8bd8ef481eb799a2143b091186a8de750a6d830122d03c3388c0f0869dc26a.png",
+        "query": "Which form of payment has overall the lowest sentiment score?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/business_articles/processed_articles/Deucalion__A_dataset-with-image-refs_artifacts/image_000000_9bf6e8c0f52945b21ae1f693d071d8a792da05daf565da766a71fc554866e834.png",
+        "query": "Which three main data sources are the images extracted from videos?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/business_articles/processed_articles/Forbidden_Fruit_and_-with-image-refs_artifacts/image_000000_deb33a6a82013c3f69c68588de0019ff6829c4720a3e8d28efd17d72e9083996.png",
+        "query": "How does the second stage promote addictive consumption among migrants?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/business_articles/processed_articles/Moderating_Tamil_Con-with-image-refs_artifacts/image_000011_593471f7983fe787471624165cd2e5752ca64e7bae7c368f79a4575010c4c759.png",
+        "query": "What's biggest reason people believe why their posts were deleted by social media platforms?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/business_articles/processed_articles/Quiet_Quitting_-_Per-with-image-refs_artifacts/image_000003_fbcf3e540f920ab536876d862d894717998bf10f0cc9e5a6dbcf27c271ea9bfb.png",
+        "query": "Which group of people are above the upper limit in the degree of engagement with their work?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/business_articles/processed_articles/The_Limited_Role_of_-with-image-refs_artifacts/image_000001_9a95880ca9def823f29d381e103af1cd16f95f716fdbfc00f23aab00d30b5d2b.png",
+        "query": "What was the cause of the increase in average correct reported predictions across the participant groups?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/business_articles/processed_articles/VISTA__Verifiable_In-with-image-refs_artifacts/image_000000_00f9d2b044adfd2119124914e6bac76ab63804a1d016cf1e7a25d75b64e72564.png",
+        "query": "What happens if the executed logic is not policy compliant?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/engineering_articles/processed_articles/A_MODULAR_SOFTWARE_F-with-image-refs_artifacts/image_000008_c7e3824421c6b0de1bf5cc907773351f9bebd499b208f52b8b68b7dbac03f588.png",
+        "query": "What trend is observed the confidence prediction error history for Advanced + Advanced Agent?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/engineering_articles/processed_articles/Adversarial-Resistan-with-image-refs_artifacts/image_000000_56d9cad6625947993039654d324cc3023d3cc284d88120fed50b29c3da75abd0.png",
+        "query": "What expressions are removed from the user prompt in the second step of the dual LLM architecture?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/engineering_articles/processed_articles/Assessing_Data_Imbal-with-image-refs_artifacts/image_000014_9d576863b223cc632b0b9d3d396a3a01349d3e3f43a59c7911ead4a368dc4d61.png",
+        "query": "What is the impact of Standardised Ht increase on the collision probability?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/engineering_articles/processed_articles/AutoML__A_Tertiary_S-with-image-refs_artifacts/image_000000_ae26ea8dd64ded7a6250ce6fba5f2bdaf720e39d43b1ab35d66a11ca9d53e4b5.png",
+        "query": "How many papers were initially selected in step 2?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/engineering_articles/processed_articles/Autonomous_identity--with-image-refs_artifacts/image_000003_9b1a95eac2345792bf0b7cfd791ff913dcf54d60e393c7e4351ca753cf25b112.png",
+        "query": "What's the impact of verifying every access attempt of the control model?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/engineering_articles/processed_articles/Bias_and_Fairness_in-with-image-refs_artifacts/image_000000_cf1a945d28634505596de274c2d81507c9fb08465b98eb5d486d2bab03064018.png",
+        "query": "How do the various dimensions of Medical LLMs characterization impact the Bias and Fairness in responsible deployment?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/engineering_articles/processed_articles/Bioenergy_with_carbo-with-image-refs_artifacts/image_000002_64f61a1d6bc4bfc9d63ca2e4436f796a2fb242d6e20bcf6777d7f0ca15c3f6eb.png",
+        "query": "Which trajectory has the biggest estimated impact on CO2 emission reduction?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/engineering_articles/processed_articles/Continuous_Real-Time-with-image-refs_artifacts/image_000006_b24a088c19a49172abf751b13873162cd246204008534a88f523c567c0db7484.png",
+        "query": "How accurate is the fist clench gesture for registering a click?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/engineering_articles/processed_articles/Decoding_community_p-with-image-refs_artifacts/image_000005_4322d483f7304b335a3949f511b75c481106d8c625e9574153d98932cbd69b4e.png",
+        "query": "Which location was the most frequent in local news?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/engineering_articles/processed_articles/Delivering_Tactile_S-with-image-refs_artifacts/image_000004_af1c5c4d0d0a8e7ba3b26f12779414b65cea2169a4d60b1b4284d58a9bd559fd.png",
+        "query": "Using a consumer grade smartphone for multisensory research, which stimulus modality exhibits the highest onset latency?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/engineering_articles/processed_articles/Implementing_Reliabi-with-image-refs_artifacts/image_000001_d5ec5773cf3ec85fd122d800e6addd2c80e8565e234d942d533b549b831ce84f.png",
+        "query": "How did the maintenance strategies evolve from 1940 to 2000s?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/engineering_articles/processed_articles/Incorporating_Partic-with-image-refs_artifacts/image_000000_4d72b1ae76ef84fb8108c4726da438cc7fd0a5eec5697fc3d9a8fdb99e8ce3f9.png",
+        "query": "What are the three parts in the interview data collection?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/engineering_articles/processed_articles/Interpretability_req-with-image-refs_artifacts/image_000000_6d98e21efcbfcb6784e049b55d15e9457519cea07be1b53360ccea15ab32cf0d.png",
+        "query": "What two methods help us interpret model's steps to complete different tasks?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/engineering_articles/processed_articles/JusticeNetBD__A_Retr-with-image-refs_artifacts/image_000004_eec45bb42b8644b5e6e07b2d45ff823fb2f708f9d53def55b2e9e1fdfb9ab3f8.png",
+        "query": "What is the pattern observed across the proprietary models on the ROUGE-L and BERTScore metrics?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/engineering_articles/processed_articles/Learning_to_operate_-with-image-refs_artifacts/image_000003_72900c0e39b599e56f813b7bf70856e716cd54602a728de3e78304f3a55a8229.png",
+        "query": "As presented per the sensor data, what happened to openness extent line and the closing velocity line upon grasping?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/engineering_articles/processed_articles/Machine_Learning-Bas-with-image-refs_artifacts/image_000000_a0cb01ae387bc9e5bae1be9606fddc51090d254d813ff395050ca959da8bd69a.png",
+        "query": "What is the least important feature as per the Random Forest classifier?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/life_articles/processed_articles/Beyond_the_Exponenti-with-image-refs_artifacts/image_000003_db7b6f050cd07cbb9fa07a51821340c2a200c115cc680ee838c9e4986e8b2911.png",
+        "query": "What is the trend of perceived subjective value as cost increases?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/life_articles/processed_articles/Oral_Language_Outcom-with-image-refs_artifacts/image_000000_9d456dd074f3e6056dcaed5efa793175e329021217b820cdc124457761fa03b9.png",
+        "query": "Between the three participants, which one had the highest total score in English at the maintenance stage 2? "
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/life_articles/processed_articles/The_Promise_of_Maste-with-image-refs_artifacts/image_000002_a15a2a99eb3134bdd94c4ca37e0e43b09731c759fcb7823973c81eea25f3b6ce.png",
+        "query": "What is the cut-off score on the first attempt after which students become significantly less likely to retake a test?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/life_articles/processed_articles/Yu,_Heng,_Arden-Gard-with-image-refs_artifacts/image_000003_97c4e4769b9d432d26613fc4b5c432f31defbf4903a118ce7cc0b09d525993f4.png",
+        "query": "Did prequestioning without feedback help students on untested questions scores?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/social_articles/processed_articles/A_Human-centered_Con-with-image-refs_artifacts/image_000003_f98fe0c0fd41f25cb7f9adfefd58f4f30624d39915dee299cb92e27fe12c4333.png",
+        "query": "When do combustion engine users start feeling uncomfortable the most?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/social_articles/processed_articles/Effector-specificity-with-image-refs_artifacts/image_000000_cd4d25ddcc675cde345fa457fba2feaaa7e81889a478ae219f18d689c6ef6a5b.png",
+        "query": "What can be concluded from the chart about tapping variability and dexterity hypothesis?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/social_articles/processed_articles/Generative_Artificia-with-image-refs_artifacts/image_000001_dc35201b83ef8c5abed17e7f72aebc59dc00780b6d0ff4c78a76697dbb5cf338.png",
+        "query": "What items have the largest factor loadings on GenAI Dependency?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/social_articles/processed_articles/Identifying_Psycholo-with-image-refs_artifacts/image_000001_1c7f013d40d0e3ac2ab64a12936e677201f61773457112aa7ec3f2ecf045b911.png",
+        "query": "What are the most important psychological factors determining safe listening?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/social_articles/processed_articles/Impact_of_cash-out_a-with-image-refs_artifacts/image_000007_693ab24a53bef8712e68f103c1d2f105c0d645858890177365c821fced2d758b.png",
+        "query": "Which subgroup displayed higher average weighted win probability when no cash-out was available?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/social_articles/processed_articles/Instrumental_variabl-with-image-refs_artifacts/image_000002_1a7094d50a98c33d5d1dee5d30bfb19a81e16de5d3856b51477d484e1f7b9a08.png",
+        "query": "In the example of modelling the impact of teacher and student homework on Math ability, how does the DIF impact the structural equation model?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/social_articles/processed_articles/Interpersonal_Cardia-with-image-refs_artifacts/image_000000_d05c1ac83ff7eafab2043bbab59656ee59686490d5754f6824434cde0c9f65b8.png",
+        "query": "Did the provider or receiver have greater inter-beat interval across time?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/social_articles/processed_articles/Introducing_the_koll-with-image-refs_artifacts/image_000004_2e73605534ef545a6d763fa20d9b75c5543f4f7dcb0a155f53e23fd8db8e76a9.png",
+        "query": "How did the I-VT algorithm perform on gaze detection between different threshold parameter values?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/social_articles/processed_articles/Learning_visual_appe-with-image-refs_artifacts/image_000002_c1dbb446a7a7cd54abd1453b153f78712316e5932f3cbc3718380c64a85ad46b.png",
+        "query": "Is there a difference between sighted and congenitally blind people in inferring object colorfulness from intended function?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/social_articles/processed_articles/Power,_Privilege,_an-with-image-refs_artifacts/image_000000_108c0a4901f0b099f12637570fad2df6b51ee033a6809034d28bbbee15a3982e.png",
+        "query": "What three pillars are the departmental practices for inclusive excellence built on?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/social_articles/processed_articles/Strong_primary_cue_w-with-image-refs_artifacts/image_000010_09b1daea87105243f16895c9713d0841883c6b36ae792d925ae583304e0fc603.png",
+        "query": "How did the responses vary with pitch and duration level for the L1 Mandarin speakers between good and poor dimension-selective attention groups?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/social_articles/processed_articles/The_Humble_Self-Conc-with-image-refs_artifacts/image_000001_83c58463113c9306c3366a7bb548b48ce15dcf84d05a3c9e9ddac11d99251af0.png",
+        "query": "What three principles are important in guiding the philosophical hypothesis of unconditional worth?"
+    },
+    {
+        "image_path": "/home/mlazar/projects/thesis/tbp_articles/social_articles/processed_articles/The_Myth_of_Publicat-with-image-refs_artifacts/image_000000_fb8e71eb5cbe2876ae94fecf1cd61289bdc680dea4b2e3eb0a0e6d25a1cca7b0.png",
+        "query": "What subfield of psychology has the lowest percentage of reported positive statistical outcomes in non-preregistered experiments?"
+    }
+]
