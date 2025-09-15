@@ -10,16 +10,16 @@ class ResponseGenerator:
     """
     A class to generate responses using OpenAI's API based on a provided image and context.
     """
-    def __init__(self, api_key, model, dev_message, base_prompt):
+    def __init__(self, api_key, model, dev_message, base_prompt, responses_dir):
         self.api_key = api_key
         self.model = model
         self.dev_message = dev_message
         self.base_prompt = base_prompt
         self.responses = []  # Store responses
 
-        # Create responses directory
-        self.responses_dir = Path("responses")
-        self.responses_dir.mkdir(exist_ok=True)
+        # Use the provided directory for JSON responses
+        self.responses_dir = Path(responses_dir)
+        self.responses_dir.mkdir(parents=True, exist_ok=True)
 
     def generate(self, image, context=None, item_id=None):
         # Prepare the prompt with the base prompt and any additional context
@@ -130,8 +130,19 @@ class ResponseGenerator:
 
 if __name__ == "__main__":
     # Example usage
+    SRC_DIR = Path(__file__).parent
+    STUDY1_DIR = SRC_DIR.parent
+    DATA_DIR = STUDY1_DIR / "data"
+
+    # Define all input and output paths absolutely
+    dev_message_path = SRC_DIR / "dev_message.txt"
+    dataset_path = DATA_DIR / "img-context-df.csv"
+    json_responses_dir = DATA_DIR / "responses"
+    responses_csv_path = DATA_DIR / "responses.csv"
+    evaluation_ready_path = DATA_DIR / "evaluation_ready.csv"
+
     # Load the developer message & base prompt
-    with open("dev_message.txt", "r") as f:
+    with open(dev_message_path, "r") as f:
         dev_message = f.read()
     base_prompt = "Generate a clear, insightful, and informative interpretation of what the provided image reveals. "
 
@@ -141,22 +152,35 @@ if __name__ == "__main__":
         api_key=api_key,
         model="o4-mini",
         dev_message=dev_message,
-        base_prompt=base_prompt
+        base_prompt=base_prompt,
+        responses_dir=json_responses_dir
     )
+        
+    # Load the dataset using its absolute path
+    dataset = pd.read_csv(dataset_path)
 
-    # Generate responses for dataset
-    dataset = pd.read_csv("img-context-df.csv")
+    # Generate responses for the dataset
     for idx, row in dataset.iterrows():
-        with open(row['image_path_1'], 'rb') as f:
+        # Construct the absolute path to the image
+        image_path = STUDY1_DIR / row['image_path_1']
+        if not image_path.exists():
+            print(f"Warning: Image not found at {image_path}, skipping row {idx}.")
+            continue
+            
+        with open(image_path, 'rb') as f:
             image_data = base64.b64encode(f.read()).decode()
         
         generator.generate(image_data, context=row['image_context_1'], item_id=row['article_name'])  # with context
         generator.generate(image_data, context=None, item_id=row['article_name'])  # without context
     
-
-    # Save, merge and export responses
-    generator.save_to_csv("responses.csv")
-    responses_df = pd.read_csv("responses.csv")
-    dataset.merge(responses_df, left_on='article_name', right_on='item_id', how='left').to_csv("evaluation_ready.csv", index=False)
-
+    # Save, merge, and export responses using absolute paths
+    generator.save_to_csv(responses_csv_path)
+    
+    if responses_csv_path.exists():
+        responses_df = pd.read_csv(responses_csv_path)
+        merged_df = pd.merge(dataset, responses_df, left_on='article_name', right_on='item_id', how='left')
+        merged_df.to_csv(evaluation_ready_path, index=False)
+        print(f"Successfully created final evaluation file at: {evaluation_ready_path}")
+    else:
+        print(f"Error: {responses_csv_path} was not created, cannot merge.")
 

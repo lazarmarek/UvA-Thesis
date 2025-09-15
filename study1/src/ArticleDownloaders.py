@@ -220,12 +220,22 @@ class ArticleDownloader:
             print(f"Saved {len(metadata_list)} preprints for {subject}")
 
 if __name__ == "__main__":
+    # Example usage
+    STUDY1_DIR = Path(__file__).parent.parent
+    
+    # Define a common parent directory for all downloaded articles
+    ARTICLES_PARENT_DIR = STUDY1_DIR / "articles"
+    
+    # Define specific, absolute paths for each source
+    ARXIV_DOWNLOAD_DIR = ARTICLES_PARENT_DIR / "arxiv_downloads"
+    OSF_DOWNLOAD_DIR = ARTICLES_PARENT_DIR / "osf_downloads"
+
     subjects = [
     "Engineering",
     "Social and Behavioral Sciences",
     "Business",
     "Life Sciences"
-    ]
+    ] # You can add more subjects as needed, list available on the osf.io website.
 
     # Create an article downloader instance
     downloader = ArticleDownloader()
@@ -234,8 +244,33 @@ if __name__ == "__main__":
     downloader.arxiv_download(
     name="Your Name",
     email="youremailaddress@example.com",
-    max_results=25,
+    download_dir=ARXIV_DOWNLOAD_DIR,
+    max_results=1,
     )
 
     # Download articles from OSF
-    downloader.osf_download(subjects=subjects, max_results=50)
+    downloader.osf_download(
+        subjects=subjects,
+        download_dir=OSF_DOWNLOAD_DIR,
+        max_results=1)
+
+    ### --- This is how it got used for the experiment --- ###
+    # subjects = [
+    # "Engineering",
+    # "Social and Behavioral Sciences",
+    # "Business",
+    # "Life Sciences"
+    # ]
+
+    # # Create an article downloader instance
+    # downloader = ArticleDownloader()
+
+    # # Download articles from arXiv                
+    # downloader.arxiv_download(
+    # name="Your Name",
+    # email="youremailaddress@example.com",
+    # max_results=25,
+    # )
+
+    # # Download articles from OSF
+    # downloader.osf_download(subjects=subjects, max_results=200)

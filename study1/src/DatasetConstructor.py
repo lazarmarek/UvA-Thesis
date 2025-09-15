@@ -294,11 +294,30 @@ class DatasetConstructor:
         self.article_index.to_csv(filename, index=False)
         print(f"Dataset saved to {filename} (random_state: {self.random_state})")
 
-# Example usage:
+
 if __name__ == "__main__":
-    constructor = DatasetConstructor("/home/mlazar/projects/thesis/tbp_articles", random_state=42)
+    # Example usage:
+    # Get the absolute path to the study1 directory
+    STUDY1_DIR = Path(__file__).parent.parent
+    
+    # Define the root directory where processed articles are located.
+    # This should point to the output of the ArticleProcessor script.
+    PROCESSED_ARTICLES_ROOT = STUDY1_DIR / "articles"
+    
+    # Define the output paths for the generated dataset and images
+    DATA_DIR = STUDY1_DIR / "data"
+    DATASET_OUTPUT_PATH = DATA_DIR / "img-context-df.csv"
+    SELECTED_IMAGES_OUTPUT_DIR = DATA_DIR / "selected_images"
+
+    # --- How it was used for the experiment ---
+    # Initialize the constructor with the absolute path to the processed articles
+    constructor = DatasetConstructor(PROCESSED_ARTICLES_ROOT, random_state=42)
+    
+    # Run the dataset construction steps
     constructor.create_article_index()
     constructor.add_random_images(num_images=1)
     constructor.clean_extracted_contexts()
-    constructor.save_dataset("img-context-df.csv")
-    constructor.save_extracted_images("selected_images")
+    
+    # Save the final dataset and the selected images to their correct locations
+    constructor.save_dataset(DATASET_OUTPUT_PATH)
+    constructor.save_extracted_images(SELECTED_IMAGES_OUTPUT_DIR)
