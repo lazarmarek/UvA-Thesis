@@ -39,7 +39,7 @@ def generate_interactive_queries(image_paths: list, contexts: list) -> list:
 if __name__ == "__main__":
 
     # Example usage
-    df = pd.read_csv('./data/tbp_articles/img-context-df.csv')
+    df = pd.read_csv('./data/processed/img-context-df.csv')
 
     # Separate image paths and contexts into lists
     img_paths = df['image_path_1'].tolist()
