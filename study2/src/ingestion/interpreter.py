@@ -119,7 +119,12 @@ class ImageInterpreter:
 if __name__ == "__main__":
 
     # Example usage
-    with open("config/dev_message.txt", "r") as f:
+    script_dir = Path(__file__).parent
+    repo_root = script_dir.parent.parent.parent
+
+    # Load the development message from the config directory
+    dev_message_path = repo_root / 'study2' / 'config' / 'dev_message.txt'
+    with open(dev_message_path, "r") as f:
         dev_message = f.read()
 
     base_prompt = "Generate a clear, insightful, and informative interpretation of what the provided image reveals. "
@@ -136,10 +141,11 @@ if __name__ == "__main__":
     )
 
     # Load the full dataset
-    full_dataset = pd.read_csv("data/processed/img-context-df.csv")
+    dataset_path = repo_root / 'study2' / 'data' / 'processed' / 'img-context-df.csv'
+    full_dataset = pd.read_csv(dataset_path)
 
     # --- CONFIGURATION FOR A SINGLE RUN ---
-    output_filename = "all_responses.csv"
+    output_filename = repo_root / 'study2' / 'outputs' / 'all_responses.csv'
     # Using a safe limit for context length to prevent memory spikes
     # If your hardware can handle more, set this to infinity
     MAX_CONTEXT_CHARS = 12000 

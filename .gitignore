@@ -1,0 +1,14 @@
+# Environments
+.venv/
+.env
+
+# Python cache
+__pycache__/
+
+# Build artifacts
+*.egg-info/
+
+# Databases
+vector_db/
+*.db
+*.sqlite3
